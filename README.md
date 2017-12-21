@@ -43,5 +43,6 @@ works best when the preview and code view are the same height.
 This extension uses the following open source components:
 
 * [Marked](https://github.com/chjj/marked) - A markdown parser written in JavaScript
-* [markdown-css-themes](https://github.com/jasonm23/markdown-css-themes) - The themes are based on the "Swiss" theme
 * [markdown-mark](https://github.com/dcurtis/markdown-mark) - The icon used in the toolbar
+* [wysiwyg.css](https://github.com/jgthms/wysiwyg.css)
+* [minireset.css](https://github.com/jgthms/minireset.css)

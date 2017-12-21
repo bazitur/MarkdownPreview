@@ -43,7 +43,7 @@
     background: white;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 10px #ccc;
+    box-shadow: 0 2px 2px #ccc;
 }
 
 #markdown-settings-panel:before {
@@ -85,4 +85,14 @@
 
 #markdown-settings-panel input {
     margin-right: 10px;
+}
+.dark #markdown-settings-panel {
+    background-color: #333333;
+    color: #999999;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #555;
+}
+.dark #markdown-settings-panel:after {
+    border-right: 15px solid #333333;
 }

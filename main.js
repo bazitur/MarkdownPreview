@@ -68,7 +68,7 @@ define(function (require, exports, module) {
     // Prefs
     var _prefs = PreferencesManager.getExtensionPrefs("markdown-preview");
     _prefs.definePreference("useGFM", "boolean", false);
-    _prefs.definePreference("theme", "string", "clean");
+    _prefs.definePreference("theme", "string", "light");
     _prefs.definePreference("syncScroll", "boolean", true);
 
     // (based on code in brackets.js)
